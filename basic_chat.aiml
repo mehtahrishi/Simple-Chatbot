@@ -1,0 +1,60 @@
+<aiml version="0.9.2" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <!-- Greeting -->
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            Well, hello there! What's your name?
+        </template>
+    </category>
+
+    <!-- Version Information -->
+    <category>
+        <pattern>WHAT IS YOUR VERSION</pattern>
+        <template>
+            I'm running version 1.0 of the chat bot, coded in Python and AIML.
+        </template>
+    </category>
+
+    <!-- Creator Information -->
+    <category>
+        <pattern>WHO CREATED YOU</pattern>
+        <template>
+            I was created by Hrishi Mehta, a brilliant developer!
+        </template>
+    </category>
+
+    <!-- Asking the user's name -->
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>
+            Nice to meet you, <star/>! How are you today?
+        </template>
+    </category>
+
+    <!-- Asking how the user is feeling -->
+    <category>
+        <pattern>I AM *</pattern>
+        <template>
+            I'm glad to hear that you're <star/>! What can I help you with today?
+        </template>
+    </category>
+
+    <!-- Asking about the chatbot's purpose -->
+    <category>
+        <pattern>WHAT CAN YOU DO</pattern>
+        <template>
+            I can chat with you, answer questions, and keep you entertained. I'm here to help!
+        </template>
+    </category>
+
+    <!-- Information about the coding used -->
+    <category>
+        <pattern>WHAT CODING WAS USED TO MAKE YOU</pattern>
+        <template>
+            I was created using Python, AIML, and a bit of magic!
+        </template>
+    </category>
+
+</aiml>
